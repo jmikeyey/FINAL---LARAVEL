@@ -1,0 +1,33 @@
+@media only screen and (max-width: 767px) {
+    .buttton_{
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+    .add_{
+        width: 250px;
+    }
+    .add_ h5{
+        font-size: 14px;
+    }
+    .add_ p{
+        font-size: 12px;
+    }
+    .address-personal h5{
+        font-size: 14px;
+    }
+    .address-personal p{
+        font-size: 12px;
+    }
+    .address-container{
+        flex-direction: row;
+        width: auto;
+        gap: 5px;
+    }
+    .address-content{
+        width: 100%;
+        text-align: justify;
+    }
+    .address-button{
+        width: 60%;
+    }
+}

@@ -1,0 +1,44 @@
+.add_label{
+    padding: 5px 20px;
+    background-color: #007bff;
+    border-radius: 20px;
+    color: white;
+}
+.is_default{
+    padding: 5px 20px;
+    background-color:#6c757d;
+    border-radius: 20px;
+    color: white;
+}
+.address-button{
+    position: relative;
+}
+
+#editAddress{
+    margin-right: 10px;
+}
+.actionHolder{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-bottom: 20px;
+    justify-self: end;
+}
+.actionHolder a {
+    font-size: 1rem;
+}
+.buttonHolder{
+    position: absolute;
+    top: 40px;
+    right: 0;
+}
+.error-toast {
+    background-color: #f27474 !important;
+    color: white;
+}
+.success-toast {
+    background-color: #a5dc86 !important;
+}
+.button_{
+    padding: 5px;
+}

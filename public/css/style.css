@@ -1,0 +1,185 @@
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.profile-img{
+    border-radius: 99%;
+    box-shadow:  7px 7px 14px #bebebe,
+            -7px -7px 14px #ffffff;
+    object-fit: contain;
+}
+.profile-name p{
+    font-size: 1rem;
+}
+.profile-tabs{
+    display: flex;
+    flex-direction: column;
+}
+#collpase-nav{
+    margin-left: 30px;
+}
+.user-info{
+    margin-left: 20px;
+}
+.user-info tr{
+    margin: 10px 0;
+}
+.user-info table {
+    border-collapse: collapse; 
+}
+.user-info td {
+    
+    padding: 10px 10px 10px 20px;
+}
+.profile-change{
+    display: flex;
+    justify-content: center;
+}
+input[type="file"] {
+    display: none;
+}
+.profile_button{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.profile-img-display{
+    border-radius: 99%;
+    border: 0.5px solid gray;
+}
+.profile-tabs a {
+    color: black;
+}
+/* PROFILE ADDRESS */
+.headers{
+    background-color: #F9F9F9;
+    display: flex;
+    justify-content: space-between;
+}
+.address-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+input[name="options"]{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+}
+/* MY PURCHASE */
+.order-content{
+    margin-left: 20px;
+    margin-bottom: 5px;
+    border-top: 1ps solid red;
+}
+.order-names{
+    display: flex;
+    row-gap: 8px;
+    flex-direction: column;
+}
+.order-names span:first-child{
+    font-size: 17px;
+}
+.order-info{
+    display: flex;
+    justify-content: space-between;
+}
+.order-stats{
+    display: flex;
+    align-items: flex-end;
+    row-gap: 25px;
+    font-size: 17px;
+}
+.order-container{
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    font-size: 1.2rem;
+    background: #fff;
+    box-shadow:  2px 2px 5px #c1c1c1,
+            -2px -2px 5px #f5f5f5;
+            transition: 1s ease;
+}
+.order-container a {
+    position: relative;
+    padding: 10px 20px;
+}
+
+.order-container a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 3px;
+    background: red;
+    transition: width 0.5s ease, left 0.5s ease;
+}
+
+.order-container a.active::after {
+    width: 100%;
+    left: 0;
+}
+
+/* .content {
+    display: none;
+}
+
+.content .show {
+    display: block;
+    animation: slideIn 0.5s forwards;
+} */
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* .content .show {
+    display: block;
+    opacity: 1;
+} */
+.actions{
+    display: flex;
+    justify-content: space-between;
+}
+.show-btn{
+    color: blue;
+    cursor: pointer;
+    transition: 1s ease-in;
+}
+.total-purchase{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3.4rem;
+}
+.btn_group{
+    padding-top: 5px;
+}
+.menu-btn {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+  }
+@media screen and (max-width: 767px) {
+    /* CSS rules for phones go here */
+    .total-purchase{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 0;
+    }
+}

@@ -1,0 +1,21 @@
+@media only screen and (max-width: 767px) {
+    .productGrid {
+        display: grid;
+        grid-template-columns: 1fr; /* Two columns */
+        grid-gap: 20px; /* Gap between grid items */
+    }
+    .product-card{
+        width: 100%;
+    }
+    .product-image{
+        height: 150px;
+        width: 150px;
+        object-fit: cover;
+    }
+    span .category{
+        font-size: 12px;
+    }
+    h4 .title{
+        font-size: 14px;
+    }
+}

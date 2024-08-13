@@ -1,0 +1,8 @@
+.heart_class{
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+.heart_class:hover{
+    transform: scale(1.3);
+    color: #0167F5;
+}
